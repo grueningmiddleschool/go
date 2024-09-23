@@ -1,0 +1,36 @@
+body {
+    background-color: #333; /* Dark grey background */
+    color: white; /* White text */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #9b59b6; /* Neon purple background */
+    color: white; /* White text */
+    text-align: center;
+    text-decoration: none; /* No underline */
+    border-radius: 25px; /* Fully rounded corners */
+    box-shadow: 0 0 10px #9b59b6, 0 0 20px #9b59b6; /* Neon effect */
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+    background-color: #8e44ad; /* Darker neon purple on hover */
+    box-shadow: 0 0 20px #8e44ad, 0 0 30px #8e44ad; /* Stronger neon effect on hover */
+}
